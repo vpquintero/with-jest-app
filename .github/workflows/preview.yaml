@@ -5,9 +5,9 @@ env:
 on:
   push:
     branches-ignore:
-      - production
+      - main
 jobs:
-Test-NextJS:
+  Test-NextJS:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
